@@ -1,59 +1,61 @@
-# React Frontend Application
+# 🚀 React Frontend Portfolio Application
 
-A modern portfolio web application built using **React.js**.  
-This project focuses only on the frontend and can be easily deployed on platforms like **Netlify**.
+A modern, responsive **portfolio web application** built using **React.js**.  
+This project focuses purely on the **frontend** and is optimized for **easy deployment** on platforms like **Netlify**.
 
-project link :-  https://hemu2424-portfolio.netlify.app/
----
-
-## 🚀 Features
-
-- Responsive UI
-- Component-based architecture
-- Clean and reusable code
-- Easy deployment
-- Beginner & fresher friendly
+🔗 **Live Demo:**  
+https://hemu2424-portfolio.netlify.app/
 
 ---
 
-## 🛠 Tech Stack
+## ✨ Features
 
-- React.js
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-- npm
+- 📱 Fully responsive design
+- 🧩 Component-based architecture
+- ♻️ Clean & reusable components
+- ⚡ Fast performance
+- 🚀 Easy Netlify deployment
+- 👶 Beginner & fresher friendly project structure
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **npm**
 
 ---
 
 ## 📦 Prerequisites
 
-Make sure you have the following installed on your system:
+Ensure the following are installed on your system:
 
 - **Node.js** (v16 or higher)
-- **npm** (comes with Node.js)
+- **npm** (bundled with Node.js)
 
-Check versions:
+Verify installation:
 ```bash
 node -v
 npm -v
-
-
-
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
-
-
 src/
-├───assets
-│   └───projects
-├───components
-│   ├───Contact
-│   ├───Footer
-│   ├───Home
-│   ├───Navbar
-│   ├───Projects
-│   └───Skillset
-├───pages
-└───project_data
-
+├── assets/
+│   └── projects/
+├── components/
+│   ├── Contact/
+│   ├── Footer/
+│   ├── Home/
+│   ├── Navbar/
+│   ├── Projects/
+│   └── Skillset/
+├── pages/
+├── project_data/
+├── App.jsx
+├── main.jsx
