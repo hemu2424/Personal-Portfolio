@@ -35,6 +35,16 @@ Ensure the following are installed on your system:
 
 - **Node.js** (v16 or higher)
 - **npm** (bundled with Node.js)
+
+Verify installation:
+```bash
+node -v
+npm -v
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ---
 ## Structure
 src/
@@ -53,13 +63,3 @@ src/
 ├── main.jsx
 
 ---
-
-Verify installation:
-```bash
-node -v
-npm -v
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
