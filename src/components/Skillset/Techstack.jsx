@@ -1,14 +1,8 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { FaJava, FaBootstrap } from "react-icons/fa";
 import {
   SiJavascript,
-  SiReact,
-  SiNodedotjs,
-  SiGit,
-  SiMui,
-  SiGraphql,
-  SiSolidity,
+  SiReact, SiMui,
   SiRedux,
   SiTailwindcss ,
   SiHtml5

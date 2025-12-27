@@ -1,12 +1,9 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiGit,
   SiOpenai ,
-  SiMysql,
-  SiNetlify
-} from "react-icons/si";
+  SiMysql,} from "react-icons/si";
 
 const Toolstack = () => {
   return (
