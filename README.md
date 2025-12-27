@@ -3,6 +3,7 @@
 A modern portfolio web application built using **React.js**.  
 This project focuses only on the frontend and can be easily deployed on platforms like **Netlify**.
 
+project link :-  https://hemu2424-portfolio.netlify.app/
 ---
 
 ## 🚀 Features
@@ -44,13 +45,17 @@ npm run dev
 
 
 src/
- ├── components/
- ├── pages/
- ├── assets/
- ├── App.js
- ├── index.js
-public/
- ├── index.html
+├───assets
+│   └───projects
+├───components
+│   ├───Contact
+│   ├───Footer
+│   ├───Home
+│   ├───Navbar
+│   ├───Projects
+│   └───Skillset
+├───pages
+└───project_data
 package.json
 README.md
-project link :-  https://hemu2424-portfolio.netlify.app/
+
