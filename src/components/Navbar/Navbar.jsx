@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -21,7 +21,10 @@ function NavBar() {
     }
   }
 
-  window.addEventListener("scroll", scrollHandler);
+  useEffect(() => {
+    window.addEventListener("scroll", scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
+  }, []);
 
   return (
     <Navbar
@@ -36,10 +39,9 @@ function NavBar() {
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
+          onClick={() => updateExpanded(!expand)}
         >
+
           <span></span>
           <span></span>
           <span></span>
@@ -48,7 +50,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <MdHome style={{fontSize: "25px", marginBottom: "2px" }} /> Home
+                <MdHome style={{ fontSize: "25px", marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -70,7 +72,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <MdWork
-                  style={{fontSize: "25px", marginBottom: "2px" }}
+                  style={{ fontSize: "25px", marginBottom: "2px" }}
                 />{" "}
                 Projects
               </Nav.Link>
@@ -82,7 +84,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <MdDescription style={{fontSize: "25px", marginBottom: "2px" }} /> Resume
+                <MdDescription style={{ fontSize: "25px", marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
@@ -98,7 +100,7 @@ function NavBar() {
 
             {/* <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/19sajib/portfolio"
+                href="https://github.com/hemu2424/personal-portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
