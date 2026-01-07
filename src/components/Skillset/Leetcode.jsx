@@ -9,7 +9,7 @@ const Leetcode = () => {
         <strong className="yellow">LeetCode</strong> Stat
       </h1>
       <ReactMarkdown>
-      ![LeetCode Stats](https://leetcard.jacoblin.cool/hemu2424?theme=dark&font=Syne%20Mono&ext=heatmap)
+      ![LeetCode Stats](https://leetcode.com/progress/)
       </ReactMarkdown>
     </Row>
   );

@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import { MdDownload } from "react-icons/md";
 
 import Particle from '../components/Particle'
-import pdf from "../assets/6_Himanshu_Resume.pdf"
+import pdf from "../assets/Himanshu_Resume.pdf"
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
