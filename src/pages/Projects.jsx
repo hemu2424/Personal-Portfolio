@@ -2,11 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import portfolio from "../assets/projects/portfolio.png";
-import MusicPlayer from "../assets/projects/MusicPlayer.png";
-import TODO from "../assets/projects/TODO.png";
-import project from "../assets/projects/project.jpeg";
-import Ecommerce from "../assets/projects/Ecommerce.png";
+import portfolio from "../assets/projects_image/portfolio.png";
+import MusicPlayer from "../assets/projects_image/MusicPlayer.png";
+import TODO from "../assets/projects_image/TODO.png";
+import project from "../assets/projects_image/project.jpeg";
+import Ecommerce from "../assets/projects_image/Ecommerce.png";
+import chatting from "../assets/projects_image/chatting.png"
 
 const Projects = () => {
   return (
@@ -77,11 +78,15 @@ Used LocalStorage to persist cart data and improve user experience.
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={project}
+              imgPath={chatting}
               isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              ghLink="https://github.com/hemu2424/"
+              title="chatting website"
+              description="• Developed a real-time chat application featuring user registration, login, logout, and authenticated home pages
+• Implemented backend using MVC architecture, JWT authentication, Cookies, and Socket.io for real-time
+communication, with data stored in MongoDB using multiple schemas
+• Built a responsive and interactive UI using React, managed global state with Redux, and styled components using
+Tailwind CSS and DaisyUI; implemented features such as search, read, and write operations"
+              ghLink="https://github.com/hemu2424/Chatting-web"
               demoLink="https://www.google.com/"
             />
           </Col>
